@@ -26,7 +26,7 @@ console.log(obj.places[0].XCoordinate + " " + obj.places[1].YCoordinate);
 var allCircles;
 
 var points = [
-                //["Dublin", 53.35, -6.26],
+                ["Dublin", 53.35, -6.26],
                 ["Cebu", 10.3157, 123.8854],
                 ["El Nido", 11.2097, 119.4623],
                 ["Bangkok", 13.7563, 100.5018],
@@ -54,44 +54,28 @@ var points = [
                 ["Paris", 48.8566, 2.3522],
                 ["Glasgow",55.8642,-4.2518],
                 ["Isle of Man", 54.2361, -4.5481]
+                //Lisbon 
             ];
 
 //create map object and set default positions and zoom level
 var map = L.map('map', {minZoom:2}).setView([20, 0], 2);
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
-var circle;
 
-var circleColor = '#0046b8';
+var markerClusters = L.markerClusterGroup();
+for (var i=0; i < points.length; i++){
+    var popup = points[i][0];
+    var m = L.marker(new L.LatLng(points[i][1], points[i][2])).bindPopup(popup);
 
-circleDraw(obj.places[0].XCoordinate, obj.places[0].YCoordinate, obj.places[0].placeName+"<br>Population:"+obj.places[0].population);
-
-for (var i = 0; i < points.length; i++) {
-    circleDraw(points[i][1], points[i][2], points[i][0]);
-    //circleDraw(obj.places[i].XCoordinate, obj.places[i].YCoordinate, obj.places[i].placeName);
-    //allCircles[i]=circle;
-}
-
-var popup1;
-
-//circleDraw(53.35, -6.26, "Dublin");
-function circleDraw(marginBottom, marginLeft, content){
-    console.log("circlesssss");
-        popup1 = L.popup({offset:L.point(0,-10)}).setContent(content);
-        circle = L.circleMarker([marginBottom, marginLeft], {
-        weight: 2,
-        color: circleColor,
-        opacity: 0.8,
-        fillColor: circleColor,
-        fillopacity: 1,
-        radius: 10 }).addTo(map).bindPopup(popup1);
-
-    circle.on('mouseover', function(event) {
+    m.on('mouseover', function(event) {
         //open popup;
         this.openPopup();
     });      
 
-    circle.on('mouseout', function(event) {
+    m.on('mouseout', function(event) {
         //close popup;
         this.closePopup();
-    });         
+    }); 
+
+    markerClusters.addLayer(m);
 }
+map.addLayer(markerClusters);

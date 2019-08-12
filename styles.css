@@ -4,6 +4,7 @@ html {
   overflow:auto;
   scrollbar-base-color:gold;
   overflow-x: hidden;
+  font-family: Montserrat;
 }
         
 body {
@@ -19,6 +20,7 @@ body {
   padding-top: 20px;
   padding-bottom: 50px;
   background-color: #f2f2f2;
+
 }
 .section2{
   padding-top: 20px;
@@ -29,45 +31,37 @@ body {
 #map {
   text-align:center;
   width: 60%;
-  height: 500px;
+  height: 80vh;
   left: 15%;
   border-radius: 25px;
   border-style: solid;
-  border-width: 5px;
+  border-width: 1.5px;
   margin-bottom: 50px;
 }
 
 #git {
   position: absolute;
   left: 45%;
-  top: 300px;  
+  top: 45vh;  
   background-color: #fff;
   padding: 10px;
-  border-radius: 10%;
-  border-style: solid;
-  border-width: 2px;  
 }
 
 #instagram {
   position: absolute;
-  top: 300px;        
+  top: 45vh;        
   left: 35%;
   background-color: #fff;
   padding: 10px;
-  border-radius: 10%;
-  border-style: solid;
-  border-width: 2px;  
+
 }
 
 #linked {
   position: absolute;
-  top: 300px;
+  top: 45vh;
   left: 25%;
   background-color: #fff;
-  padding: 10px;
-  border-radius: 10%;
-  border-style: solid;
-  border-width: 2px;  
+  padding: 10px; 
 }
 
 .box{
@@ -88,7 +82,7 @@ body {
 }
 
 .zoom:hover {
-  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
