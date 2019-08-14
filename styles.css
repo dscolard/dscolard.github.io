@@ -17,7 +17,7 @@ body {
 
 
 .section1{
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 50px;
   background-color: #f2f2f2;
 
@@ -70,8 +70,7 @@ body {
 }
 
 .zoom:hover {
-  transform: scale(1.35); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+  transform: scale(1.35); 
 
 
 
