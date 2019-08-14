@@ -1,0 +1,161 @@
+{
+  "locations": [
+    {
+      "koh-tao": {
+        "country": "Thailand",
+        "continent": "Asia",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "": {},
+      "dublin": {
+        "country": "Ireland",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "cebu": {
+        "country": "Philippines",
+        "continent": "Asia",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "el-nido": {
+        "country": "Philippines",
+        "continent": "Asia",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "bangkok": {
+        "country": "Thailand",
+        "continent": "Asia",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "chiang-mai": {
+        "country": "Thailand",
+        "continent": "Asia",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "hanoi": {
+        "country": "Vietnam",
+        "continent": "Asia",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "ho-chi-minh": {
+        "country": "Vietnam",
+        "continent": "Asia",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "budapest": {
+        "country": "Hungary",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "vancouver": {
+        "country": "Canada",
+        "continent": "North America",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "orlando": {
+        "country": "USA",
+        "continent": "North America",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "madrid": {
+        "country": "Spain",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "oberstdorf": {
+        "country": "Germany",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "berlin": {
+        "country": "Germany",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "amsterdam": {
+        "country": "Netherlands",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "vienna": {
+        "country": "Austria",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "ljubljana": {
+        "country": "Slovenia",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "prague": {
+        "country": "Czech Republic",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "rome": {
+        "country": "Italy",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "bilbao": {
+        "country": "Spain",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "marrakech": {
+        "country": "Morocco",
+        "continent": "Africa",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      },
+      "zagreb": {
+        "country": "Croatia",
+        "continent": "Europe",
+        "x": "20",
+        "y": "30",
+        "population": "200"
+      }
+    }
+  ]
+}
