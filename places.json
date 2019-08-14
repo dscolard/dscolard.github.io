@@ -1,14 +1,16 @@
 {
   "locations": [
-    {
-      "koh-tao": {
+    
+      {
+        "location":"Koh Tao",
         "country": "Thailand",
         "continent": "Asia",
         "x": "20",
         "y": "30",
         "population": "200"
       },
-      "dublin": {
+      {
+        "location":"dublin",
         "country": "Ireland",
         "continent": "Europe",
         "x": "20",
@@ -155,6 +157,5 @@
         "y": "30",
         "population": "200"
       }
-    }
   ]
 }

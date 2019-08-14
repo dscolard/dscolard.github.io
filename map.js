@@ -1,29 +1,4 @@
 
-//Place X-Coordinate Y-Coordinate
-var places = 
-'{"places":['+
-    '{'+
-        '"placeName":"Dublin",'+
-        '"country":"Ireland",'+
-        '"continent":"Europe",'+
-        '"population":544107,'+
-        '"XCoordinate":53.35,'+
-        '"YCoordinate":-6.26'+
-    '},'+
-
-    '{'+
-        '"placeName":"Dublin",'+
-        '"country":"Ireland",'+
-        '"continent":"Europe",'+
-        '"population":544107,'+
-        '"XCoordinate":53.35,'+
-        '"YCoordinate":-6.26'+
-    '}'+
-']}';
-
-obj = JSON.parse(places);
-console.log(obj.places[0].XCoordinate + " " + obj.places[1].YCoordinate);
-var allCircles;
 
 var points = [
                 ["Dublin", 53.35, -6.26],
