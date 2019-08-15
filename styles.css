@@ -41,7 +41,6 @@ body {
 #git {
   position: absolute;
   left: 45%;
-  padding: 10px;
   background-color: #fff;
   float: left;
 }
@@ -49,14 +48,12 @@ body {
 #instagram {
   position: absolute;
   left: 35%;
-  padding: 10px;
   background-color: #fff;
 }
 
 #linked {
   position: absolute;
   left: 25%;
-  padding: 10px;
   background-color: #fff;
 }
 
