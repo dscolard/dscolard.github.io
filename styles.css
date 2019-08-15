@@ -26,6 +26,7 @@ body {
 .section2{
   padding-top: 20px;
   padding-bottom: 50px;
+  float:left;
   background-color: #fff;
 }
 
