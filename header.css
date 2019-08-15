@@ -30,7 +30,7 @@
   display:grid;
   align-items:center;
   justify-items:center;
-  color:#000;
+  color:#f2f2f2;
   position: absolute;
   width: 50vw;
   height: 100%;
@@ -67,7 +67,7 @@
   right: 0px;
   position: absolute;
   z-index: 2;
-  border-bottom: 50rem solid #ffffff;
+  border-bottom: 50rem solid #f2f2f2;
   border-left: 10rem solid transparent;
   pointer-events: none;
 }
