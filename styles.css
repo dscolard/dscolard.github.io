@@ -17,6 +17,7 @@ body {
 
 
 .section1{
+  float:left;
   padding-top: 10px;
   padding-bottom: 50px;
   background-color: #f2f2f2;
@@ -42,6 +43,7 @@ body {
   left: 45%;
   padding: 10px;
   background-color: #fff;
+  float: left;
 }
 
 #instagram {
