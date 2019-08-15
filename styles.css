@@ -40,14 +40,12 @@ body {
 #git {
   position: absolute;
   left: 45%;
-  top: 45vh;  
   background-color: #fff;
   padding: 10px;
 }
 
 #instagram {
   position: absolute;
-  top: 45vh;        
   left: 35%;
   background-color: #fff;
   padding: 10px;
@@ -56,7 +54,6 @@ body {
 
 #linked {
   position: absolute;
-  top: 45vh;
   left: 25%;
   background-color: #fff;
   padding: 10px; 
