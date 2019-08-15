@@ -26,7 +26,6 @@ body {
 .section2{
   padding-top: 20px;
   padding-bottom: 50px;
-  float:left;
   background-color: #fff;
 }
 
@@ -41,6 +40,7 @@ body {
 
 #git {
   position: absolute;
+  padding: 10px;
   left: 45%;
   background-color: #fff;
   float: left;
