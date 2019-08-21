@@ -13,41 +13,22 @@
 		<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
 		<script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-		<script>
-		//paste this code under the head tag or in a separate js file.
-			// Wait for window load
-			$(window).load(function() {
-				// Animate loader off screen
-				$(".se-pre-con").fadeOut("slow");
-			});
-		</script>
-	</head>
-
-
-	<body>
-		<div class="se-pre-con"></div>
-
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto&display=swap" rel="stylesheet"> 
 		<script type="text/javascript">
 			if (screen.width <= 699) {
 				document.location = "mobile.html";
 			}
 		</script>
+	</head>
 
-<!-- 		<div class="page-header-wrapper">
-	    
-	    	<div class="page-header-left" id="page-header-left"></div>
 
-	    	<div class="page-header-right">
-	      		<span class="page-header-right-inner">
-		        	<h1> David Scolard </h1>
-		        	<h2 style="font-size: 20px;">Computer Science Student | Trinity College Dublin</h2>
-		        	<div class="page-header-links"></div>
-	      		</span>
-	    	</div>
+	<body>
 
-	  	</div> -->
-		<div>
+		<div id="header">
+			<img src="img/me.jpg" style="width: 100%; height: 70vh; object-fit: cover;">
+		</div>
+
+		<div style="margin-top: 25vh;">
 			<a href="https://www.instagram.com/davidscolardofficial/?hl=en" id="instagram" class="zoom">
 				<img src="img/instagram.png" width="70" height="70">
 			</a>
@@ -64,7 +45,7 @@
 		<div class="section1">
  			<h3 name="aboutMe" style="margin-left: 20px;">About Me</h3>
  			<hr>
- 			<p style="margin-left: 20px;">24 year old Software Developer + all-round Tech Enthusiast located in Dublin Ireland 😎
+ 			<p style="margin-left: 20px;">My Name is <strong>David Scolard</strong><br>I'm a 24 year old Software Developer + all-round Tech Enthusiast located in Dublin Ireland 😎<br>Currently in my Fourth & Final year of studying Computer Science at Trinity College Dublin
  			</p>
  		</div>
 
@@ -77,7 +58,7 @@
 
 
 		<div>
-			<img style="float: left; margin-left: 10vw; margin-right: 20px;" class="image" style="margin-left: 0%" src="img/checkOut.png">
+			<img style="float: left; margin-left: 4vw; margin-right: 20px;" src="img/checkOut.png">
 			<div id="map">
 		   		<script type="text/javascript" src="map.js"></script>
 		   	</div>
