@@ -4,7 +4,7 @@ html {
   overflow:auto;
   scrollbar-base-color:gold;
   overflow-x: hidden;
-  font-family: Montserrat;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; 
 }
         
 body {
@@ -15,10 +15,18 @@ body {
   margin-top: 0px;
 }
 
-#header{
+h1 {
+  font-size: 26px; 
+  font-weight: 70; 
+  padding-top: 2vh;
+  padding-left: 10%;
+  float: left;
+}
+
+#landscape{
   height:70vh;
   position: absolute;
-  top:0;
+  top:12.5vh;
   left:0;
   width:100%;
 }
@@ -61,6 +69,19 @@ body {
   left: 25%;
   padding: 1px;
 }
+
+a{
+  color: #878787;
+  text-decoration: none;
+
+}
+
+
+
+a:hover {
+  color: black;
+}
+
 
 .zoom {
   padding: 5px;
