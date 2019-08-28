@@ -56,6 +56,8 @@ var points = [
                 ["Nottingham", 52.9548, -1.1581]
             ];
 
+
+
 //create map object and set default positions and zoom level
 var map = L.map('map', {minZoom:2}).setView([20, 0], 2);
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);

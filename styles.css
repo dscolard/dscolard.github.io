@@ -18,7 +18,7 @@ body {
 h1 {
   font-size: 26px; 
   font-weight: 70; 
-  padding-top: 2vh;
+  padding-top: 3vh;
   padding-left: 10%;
   float: left;
 }
@@ -115,6 +115,7 @@ a:hover {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 100px;
+  overflow: auto;
 }
 
 .shadow{
