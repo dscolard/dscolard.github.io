@@ -18,9 +18,17 @@ body {
 h1 {
   font-size: 26px; 
   font-weight: 70; 
-  padding-top: 3vh;
-  padding-left: 10%;
+  padding-top: 2vh;
+  padding-left: 10vw;
   float: left;
+}
+
+.links{
+  font-size:18px; 
+  float: right; 
+  margin-right: 15vw; 
+  padding-top: 5.5vh; 
+  display: inline-block;
 }
 
 #landscape{
@@ -78,14 +86,6 @@ a{
 
 a:hover {
   color: black;
-}
-
-.links{
-  font-size:18px; 
-  float: right; 
-  margin-right: 15vw; 
-  padding-top: 5.5vh; 
-  display: inline-block;
 }
 
 .zoom {
