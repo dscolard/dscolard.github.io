@@ -15,26 +15,27 @@ body {
   margin-top: 0px;
 }
 
-h1 {
+.myName {
   font-size: 26px; 
   font-weight: 70; 
-  padding-top: 2vh;
-  padding-left: 10vw;
+  width: 40%;
+  padding-top: 3vh;
+  text-align: center;
   float: left;
 }
 
 .links{
   font-size:18px; 
   float: right; 
-  margin-right: 15vw; 
-  padding-top: 5.5vh; 
-  display: inline-block;
+  padding-top: 4vh;
+  text-align: center;
+  width: 30%;
 }
 
 #landscape{
   height:70vh;
   position: absolute;
-  top:12.5vh;
+  margin-top:10vh;
   left:0;
   width:100%;
 }
